@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   kafka:
     image: ${KAFKA_IMAGE:-bitnami/kafka:3.7}
